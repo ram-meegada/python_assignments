@@ -1,0 +1,19 @@
+1. Print the count of every letter in string.
+   sample input:- "Kane Williamson"
+   sample output:- K-1, a-2, n-2, e-1, W-1, i-2, l-2, m-1, s-1, o-1, n-1
+
+2. Print the string 'n' times where n is length of string.
+   sample input:- "puchulu"
+   sample output:- puchulu puchulu puchulu puchulu
+
+3. Reverse the words in a string.
+   sample input:- "Agent puli is on mission."
+   sample output:- ".mission on is puli Agent"
+
+4. Print every three letters of string.
+   sample input:- "Kane Williamson"
+   sample output:- "Kan" "e W" "ill" "iam" "son"
+
+5. Sort the string.
+   sample input:- "i can do this all day"
+   sample outpu:- "aaacddhiillnosty"
