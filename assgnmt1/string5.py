@@ -1,4 +1,4 @@
-F=input("enter : ")
+""""F=input("enter : ")
 n=len(F)
 min=0
 temp=""
@@ -17,5 +17,11 @@ for i in range(n-1):
 for i in range(n):
     if(F[i]==" "):
         continue
-    print(F[i],end="")
+    print(F[i],end="")"""
+list1 = ["a", "b", "c"]
+list2 = [1, 2, 3]
+
+list1.append(list1)
+print(list1)
+
        
