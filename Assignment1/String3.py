@@ -1,16 +1,17 @@
 x=input("enter the String:")
 #ln=x.split()
-o=0
-ln=[]
-while(o<len(x)):
-    intial=o
-    if(x[o]==" "):
-        pass
+l1=[]
+a=b=-1
+s=" "
+for u in range(len(x)): 
+    
+   
+print(l1)
 
-    o=o+1
 
 
-l=len(ln)
+
+"""l=len(ln)
 k=[]
 #l.reverse()
 for i in range(l-1,-1,-1):
@@ -22,7 +23,7 @@ print(k)
 y=""
 for e in k:
     y +=" "+e
-print(y)
+print(y)"""
 
 
 
