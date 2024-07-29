@@ -1,0 +1,21 @@
+1. find second largest element of list.
+
+2. find all capital letters of a string without using isupper() function.
+   sample input:- "RAMU williamson kane WILLIAMSON"
+   sample output:- "RAMU WILLIAMSON"
+
+3. find the sum of your name according to ascii.(refer ascii table)
+   sample input:- "Ramu"
+   sample output:- 405
+
+4. add the elements of two same length lists in specific manner like below and make new list.
+   sample input:- [1, 2, 3, 4] [5, 6, 7, 8]
+   sample output:- [9, 9, 9, 9]
+   explanation:- [1+8, 2+7, 3+6, 4+5]
+
+5. check whether the list is palindrome list or not.
+   sample input:- [1,2,3,2,1]
+   sample output:- True
+
+6. find the specific word in a string.
+   sample input:- "antha shraddha undhi manaki Dabaang!!!."
