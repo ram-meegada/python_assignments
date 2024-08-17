@@ -3,10 +3,10 @@ count=0
 for i in x:
     if(count<3):
         count=count+1
-        print(i,end="")
+       
     else:
         count=0
         print(",",end="")
         count=count+1
-        print(i,end="")
+    print(i,end="")    
 

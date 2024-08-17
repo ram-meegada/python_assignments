@@ -2,5 +2,5 @@ s=input("enter the string: ")
 str=set(s)
 for i in str:
     if(i!=" "):
-        print(i ,"-" ,s.count(i),end=" ")
+        print(i ,"-" ,s.count(i),end=" ") #count use cheyyoddhu
 
