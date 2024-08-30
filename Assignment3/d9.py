@@ -4,8 +4,9 @@ s=input("enter a odd length string:")
 mid=(len(s)-1)//2
 new=s[mid:len(s)]+s[:mid]
 k=0
-for i in  range((len(s)*2),1,-2):
-    for j in range(i):
-        print(" ",end="")
+v=(len(s)*2)
+for i in  range(v,1,-2):
+    print("print",i)
+    print("a"*i,end="")
     k+=1
     print(new[0:k])

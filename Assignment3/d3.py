@@ -4,14 +4,14 @@
    The original list is : [8, 3, 2]
    The mapped dictionary : {8: {'Gfg': 4}, 3: {'is': 5}, 2: {'best': 9}}
 """
-dict1={'Gfg': 4, 'is': 5, 'best': 9}
-item=list(dict1.items())
+dict1 = {'Gfg': 4, 'is': 5, 'best': 9}
+item = list(dict1.items())
 print(item)
-list1= [8, 3, 2]
-Map={}
-k=len(dict1)
-a=0
-for i,j in item:
-    Map[list1[a]]={i:j}
-    a+=1
-print(Map)
+list1 =  [8, 3, 2]
+map = {}
+k = len(dict1)
+a = 0
+for i,j in dict1.items():
+    map[list1[a]] = {i:j}
+    a += 1
+print(map)

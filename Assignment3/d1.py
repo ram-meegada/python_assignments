@@ -9,3 +9,4 @@ for i in s:
     else:
         thisdict[i]+=1
 print(thisdict)
+# + (2*(len(n[left+1: right])) + 1)*" "

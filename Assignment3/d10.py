@@ -1,20 +1,26 @@
-s ="""Technology has had a profound impact on society, influencing virtually every aspect of daily life. From the way we communicate to how we work, learn, and entertain ourselves, technological advancements have transformed the global landscape. One of the most significant changes brought about by technology is the way we connect with one another. The advent of the internet, social media, and mobile communication devices has created a more interconnected world. Today, individuals from different parts of the globe can communicate in real-time, share ideas, collaborate on projects, and even form relationships without ever meeting in person. This connectivity has fostered a sense of global community and has made the world feel smaller and more accessible. However, this increased connectivity has also brought challenges, such as the spread of misinformation, privacy concerns, and the potential for addiction to digital platforms. Social media, in particular, has been criticized for creating echo chambers where individuals are exposed only to information that reinforces their existing beliefs, leading to a more polarized society. Additionally, the prevalence of digital communication has raised concerns about the erosion of face-to-face interaction skills, as many people, particularly younger generations, prefer texting, messaging, or video calls to in-person conversations.
+s ="""Technology has had a profound impact on society"""
 
-Another area where technology has had a significant impact is the workplace. Automation, artificial intelligence (AI), and machine learning have transformed industries across the board. In manufacturing, for example, robots have replaced many manual labor jobs, leading to increased efficiency but also causing job displacement for workers. In the service sector, AI-powered chatbots and virtual assistants have taken on tasks that were once performed by human customer service representatives. While these technological advancements have led to increased productivity and cost savings for businesses, they have also raised concerns about job loss and economic inequality. As machines become more capable of performing complex tasks, there is a growing fear that many traditional jobs will become obsolete, leaving large segments of the population unemployed or underemployed. On the other hand, technology has also created new job opportunities, particularly in the fields of software development, cybersecurity, data analysis, and digital marketing. The rise of the gig economy, driven by platforms like Uber, Lyft, and Airbnb, has provided individuals with new ways to earn income, but it has also raised questions about job security, worker rights, and the long-term sustainability of these models.
-
-Education is another area where technology has made a significant impact. The proliferation of online learning platforms, such as Coursera, edX, and Khan Academy, has democratized access to education, allowing individuals from all over the world to learn new skills and gain knowledge without the need for traditional brick-and-mortar institutions. Additionally, the COVID-19 pandemic accelerated the adoption of remote learning, with schools and universities transitioning to virtual classrooms almost overnight. While this shift to online education has provided many benefits, including greater flexibility and the ability to reach a broader audience, it has also highlighted the digital divide. Not all students have access to the necessary technology, such as high-speed internet and computers, which has exacerbated existing inequalities in education. Furthermore, there are concerns about the effectiveness of online learning compared to traditional in-person instruction, particularly when it comes to hands-on learning and the development of social skills. Despite these challenges, technology has the potential to revolutionize education by making it more personalized, adaptive, and accessible to all.
-
-Healthcare has also been transformed by technology, with innovations such as telemedicine, wearable devices, and electronic health records improving the delivery of care and patient outcomes. Telemedicine, for example, allows patients to consult with healthcare providers remotely, reducing the need for in-person visits and making healthcare more accessible, particularly for those in rural or underserved areas. Wearable devices, such as fitness trackers and smartwatches, enable individuals to monitor their health in real-time, providing valuable data that can be used to prevent or manage chronic conditions. Additionally, advancements in medical technology, such as robotic surgery, 3D printing of organs, and gene editing, have opened up new possibilities for treatment and care. However, these technological advancements also raise ethical and privacy concerns, particularly when it comes to the collection and use of personal health data. As more healthcare providers adopt digital solutions, there is a growing need for robust cybersecurity measures to protect sensitive information from breaches and cyberattacks.
-
-The entertainment industry has also been revolutionized by technology. Streaming services like Netflix, Spotify, and YouTube have changed the way we consume media, making it easier than ever to access a vast array of content at our fingertips. This shift has disrupted traditional media industries, such as television and radio, leading to changes in how content is produced, distributed, and monetized. For instance, the rise of user-generated content platforms, such as YouTube and TikTok, has given rise to a new generation of creators who can reach global audiences without the need for traditional gatekeepers like television networks or record labels. Additionally, advances in virtual reality (VR) and augmented reality (AR) have created new possibilities for immersive entertainment experiences, from video games to live events. However, this proliferation of digital content has also raised concerns about the impact of screen time on mental health, particularly among younger generations. There is growing evidence that excessive use of digital devices can contribute to issues such as anxiety, depression, and sleep disturbances.
-
-In conclusion, technology has had a profound and far-reaching impact on society, influencing the way we communicate, work, learn, and entertain ourselves. While these advancements have brought many benefits, they have also created new challenges and raised important ethical, social, and economic questions. As technology continues to evolve, it is crucial that we find ways to harness its potential for good while addressing the unintended consequences it may bring. Balancing innovation with responsibility will be key to ensuring that technology serves as a force for positive change in the world."""
-temp={1:2000,2:4770,3:1}
+temp={1:2,2:4,3:8,4:12}
 l=[]
+key=1
 r=0
-for i in temp.values():
-    s1=s[r:r+i]
-    l.append(s1)
-    r+=i
+# for i in temp.values():
+#     s1=s[r:r+i]
+#     l.append(s1)
+#     r+=i
+# x=val.pop()
+# while(r<len(s)):
+#     s1=s[r:r+x] 
+#     l.append(s1)
+#     r+=i
 
+# print(l)
+while(r<len(s)):
+    l.append(s[r:r+temp[key]])
+    r += temp[key]
+    if(key < len(temp)):
+        key += 1
 print(l)
+
+    
+
